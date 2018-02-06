@@ -1,0 +1,39 @@
+package adapter_pattern;
+
+public class Adapter implements Dog,Cat{
+	private Cat cat;
+	private Dog dog;
+	public void setCat(Cat cat) {
+		this.cat=cat;
+	}
+	public void setDog(Dog dog) {
+		this.dog=dog;
+	}
+	//√®—ßπ∑Ω–
+	@Override
+	public void cry() {
+		// TODO Auto-generated method stub
+		System.out.println("√®—ßπ∑£∫");
+		dog.wang();
+	}
+    //√®◊•¿œ Û
+	@Override
+	public void catchMouse() {
+		// TODO Auto-generated method stub
+		cat.catchMouse();
+	}
+     //π∑Ω–
+	@Override
+	public void wang() {
+		// TODO Auto-generated method stub
+		dog.wang();
+	}
+    //π∑—ß√®◊•¿œ Û
+	@Override
+	public void action() {
+		// TODO Auto-generated method stub
+	System.out.println("π∑—ß√®£∫");
+		cat.catchMouse();
+	}
+
+}

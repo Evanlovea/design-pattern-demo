@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>bridge_pattern.Television</className>
+    <className>bridge_pattern.TCL</className>
+</config>

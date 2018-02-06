@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+	<className>abstract_factory.PcFactory</className>
+</config>
